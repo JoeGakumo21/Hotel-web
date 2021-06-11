@@ -1,0 +1,125 @@
+body{
+    background-image: url("assets/pexels-kartik-kacha-2569760.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*font-family: 'Marck Script', cursive; */
+.container{
+    background-color: rgba(190, 189, 145,0.8);
+
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(230,232, 239);
+    border-radius: 5px;
+    text-align: center;
+   
+}
+.nav div{
+
+    padding: 10px 20px 10px 20px;
+    margin: 0 5px 0 5px;
+    font-family: 'Marck Script', cursive;
+   
+}
+h3{
+    color: black;
+    text-decoration: underline;
+}
+#img{
+    display: flex;
+    text-align: center;
+    margin: 10px;
+}
+img{
+    border-radius: 100%;
+   
+}#img>h1{
+    text-align: center;
+    font-size: 40px;
+    padding: 0 400px 0 400px;
+}
+h1>span{
+    color: red;
+}
+
+#dishes{
+    display: flex;
+    margin-top: 30px;
+}
+#about{
+    text-align: center;
+
+}
+#about>h2{
+    border-bottom: 2px solid red;
+    font-size: 40px;
+    font-family: 'Architects Daughter', cursive;
+}
+#about>p{
+    font-family: 'Architects Daughter', cursive;
+    font-size: 30px;
+}
+b{
+    color: green;
+}
+
+#dishes>div{
+    background-color: rgba(234,233, 233);
+    margin: 0px 20px 0px 20px;
+    text-align: center;
+    margin: 20px;
+    border-radius: 20px;
+    font-size:30px;
+    font-family: 'Marck Script', cursive;
+}
+#dishes>img{
+    margin: 10px;
+}
+a{
+    text-decoration: none;
+}
+#dishes>.food{
+    padding-top: 10px;
+}
+.sub{
+    display: flex;
+    background-color:#cddead;
+    text-align: center;
+    font-size: 50px;
+    opacity: 0.5;
+    font-family: 'Marck Script', cursive;
+
+}.sub>h2{
+    justify-content: space-between;
+    margin-left: 800px;
+}
+
+#break{
+    display: flex;
+    background-color: rgba(201, 81, 81, 0.1);
+}
+#break>div{
+    
+    text-align: center;
+    margin: 90px;
+    background-color: #fff;
+    opacity: 0.7;
+    padding-top: 20px;
+    font-family: 'Marck Script', cursive;
+    font-size: 20px;
+    border-radius: 20px;
+}
+#break>img{
+    padding: 20px;
+}
+footer{
+    text-align: center;
+    padding: 20px;
+    color: rgb(158, 28, 197);
+    background-color: darkseagreen;
+    opacity: 0.7;
+    font-size: 30px;
+    margin:10px;
+}
